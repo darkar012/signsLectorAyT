@@ -432,9 +432,9 @@ while camera_video.isOpened():
                         #recognizeGestures(frame, fingers_statuses, count, draw=True)
 
                         if recognizeGestures(frame, fingers_statuses, count, draw=True) == "serenidad":
-
                             reads.append("serenidad")
                             camera_video = cv2.VideoCapture(2)
+                            time.sleep(1)
                             cv2.destroyWindow("Spectrum Read")
                             veces = veces + 1
                             timeroff = False
@@ -442,41 +442,48 @@ while camera_video.isOpened():
                             reads.append("alegria")
                             camera_video = cv2.VideoCapture(2)
                             cv2.destroyWindow("Spectrum Read")
+                            time.sleep(1)
                             veces = veces + 1
                             timeroff = False
                         elif recognizeGestures(frame, fingers_statuses, count, draw=True) == "aceptacion":
                             reads.append("aceptacion")
                             camera_video = cv2.VideoCapture(2)
+                            time.sleep(1)
                             cv2.destroyWindow("Spectrum Read")
                             veces = veces + 1
                             timeroff = False
                         elif recognizeGestures(frame, fingers_statuses, count, draw=True) == "esperanza":
                             reads.append("esperanza")
                             camera_video = cv2.VideoCapture(2)
+                            time.sleep(1)
                             cv2.destroyWindow("Spectrum Read")
                             veces = veces + 1
                             timeroff = False
                         elif recognizeGestures(frame, fingers_statuses, count, draw=True) == "melancolia":
                             reads.append("melancolia")
                             camera_video = cv2.VideoCapture(2)
+                            time.sleep(1)
                             cv2.destroyWindow("Spectrum Read")
                             veces = veces + 1
                             timeroff = False
                         elif recognizeGestures(frame, fingers_statuses, count, draw=True) == "tristeza":
                             reads.append("tristeza")
                             camera_video = cv2.VideoCapture(2)
+                            time.sleep(1)
                             cv2.destroyWindow("Spectrum Read")
                             veces = veces + 1
                             timeroff = False
                         elif recognizeGestures(frame, fingers_statuses, count, draw=True) == "miedo":
                             reads.append("miedo")
                             camera_video = cv2.VideoCapture(2)
+                            time.sleep(1)
                             cv2.destroyWindow("Spectrum Read")
                             veces = veces + 1
                             timeroff = False
                         elif recognizeGestures(frame, fingers_statuses, count, draw=True) == "incertidumbre":
                             reads.append("incertidumbre")
                             camera_video = cv2.VideoCapture(2)
+                            time.sleep(1)
                             cv2.destroyWindow("Spectrum Read")
                             veces = veces + 1
                             timeroff = False
